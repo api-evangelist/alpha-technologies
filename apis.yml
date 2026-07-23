@@ -1,7 +1,27 @@
 aid: alpha-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alpha-technologies.png
 name: Alpha Technologies
-description: Alpha Technologies is a company surfaced as a portfolio company of accel and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Alpha Technologies is a power-systems manufacturer providing AC, DC, and renewable
+  powering solutions for the telecom, cable-broadband, traffic, security, industrial,
+  and alternative-energy industries. Its product line spans uninterruptible power
+  supplies (UPS), standby and non-standby power systems, batteries, enclosures,
+  network/fiber powering gear, and renewable-energy products. Founded in the 1980s
+  and now part of EnerSys, Alpha operates as a hardware and stored-energy solutions
+  provider rather than a public API platform; it was surfaced in the API Evangelist
+  network as an Accel-associated portfolio lead and carries no public developer or
+  API surface at the time of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/alpha-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-17T12:00:00Z'
 tags:
 - Company
+- Power Systems
+- Energy
+- Telecommunications
+- Hardware
+- Renewable Energy
+- Backup Power
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/alpha-technologies-domain-security.yml
 - type: Website
   url: https://www.alpha.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
