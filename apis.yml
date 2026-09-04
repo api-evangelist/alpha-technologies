@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.alpha.com/', status: 302, note: 'declared website redirects to https://www.enersys.com/en/about-us/company-background/alpha/ — a different registrable domain (alpha.com -> enersys.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alpha-technologies.png
 name: Alpha Technologies
 description: >-
